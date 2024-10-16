@@ -1,0 +1,28 @@
+<h2>Lista de Tareas</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Estado</th>
+      <th>Acciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let tarea of tareas">
+      <td>{{ tarea.titulo }}</td>
+      <td>{{ tarea.descripcion }}</td>
+      <td>
+        <select [(ngModel)]="tarea.estado" (change)="cambiarEstado(tarea)">
+          <option value="Pendiente">Pendiente</option>
+          <option value="EnProgreso">En Progreso</option>
+          <option value="Completada">Completada</option>
+        </select>
+      </td>
+      <td>
+        <button [routerLink]="['/editar', tarea.id]">Editar</button>
+        <button (click)="eliminarTarea(tarea.id)">Eliminar</button>
+      </td>
+    </tr>
+  </tbody>
+</table>

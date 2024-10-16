@@ -1,0 +1,136 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Daigual200\\TareasAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6CB5BAF9-B398-4751-B84F-883C78704A65}|TareasAPI.csproj|c:\\users\\daigual200\\tareasapi\\tareascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CB5BAF9-B398-4751-B84F-883C78704A65}|TareasAPI.csproj|solutionrelative:tareascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CB5BAF9-B398-4751-B84F-883C78704A65}|TareasAPI.csproj|c:\\users\\daigual200\\tareasapi\\models\\tarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CB5BAF9-B398-4751-B84F-883C78704A65}|TareasAPI.csproj|solutionrelative:models\\tarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CB5BAF9-B398-4751-B84F-883C78704A65}|TareasAPI.csproj|c:\\users\\daigual200\\tareasapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CB5BAF9-B398-4751-B84F-883C78704A65}|TareasAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CB5BAF9-B398-4751-B84F-883C78704A65}|TareasAPI.csproj|c:\\users\\daigual200\\tareasapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6CB5BAF9-B398-4751-B84F-883C78704A65}|TareasAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CB5BAF9-B398-4751-B84F-883C78704A65}|TareasAPI.csproj|c:\\users\\daigual200\\tareasapi\\repository\\itareasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CB5BAF9-B398-4751-B84F-883C78704A65}|TareasAPI.csproj|solutionrelative:repository\\itareasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CB5BAF9-B398-4751-B84F-883C78704A65}|TareasAPI.csproj|c:\\users\\daigual200\\tareasapi\\tareasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CB5BAF9-B398-4751-B84F-883C78704A65}|TareasAPI.csproj|solutionrelative:tareasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CB5BAF9-B398-4751-B84F-883C78704A65}|TareasAPI.csproj|c:\\users\\daigual200\\tareasapi\\data\\tareascontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CB5BAF9-B398-4751-B84F-883C78704A65}|TareasAPI.csproj|solutionrelative:data\\tareascontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Daigual200\\TareasAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Daigual200\\TareasAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-14T22:35:25.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TareasController.cs",
+              "DocumentMoniker": "C:\\Users\\Daigual200\\TareasAPI\\TareasController.cs",
+              "RelativeDocumentMoniker": "TareasController.cs",
+              "ToolTip": "C:\\Users\\Daigual200\\TareasAPI\\TareasController.cs",
+              "RelativeToolTip": "TareasController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwB8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T23:04:16.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TareasRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Daigual200\\TareasAPI\\TareasRepository.cs",
+              "RelativeDocumentMoniker": "TareasRepository.cs",
+              "ToolTip": "C:\\Users\\Daigual200\\TareasAPI\\TareasRepository.cs",
+              "RelativeToolTip": "TareasRepository.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T22:50:57.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ITareasRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Daigual200\\TareasAPI\\Repository\\ITareasRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ITareasRepository.cs",
+              "ToolTip": "C:\\Users\\Daigual200\\TareasAPI\\Repository\\ITareasRepository.cs",
+              "RelativeToolTip": "Repository\\ITareasRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T22:36:32.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Daigual200\\TareasAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Daigual200\\TareasAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T22:34:24.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Tarea.cs",
+              "DocumentMoniker": "C:\\Users\\Daigual200\\TareasAPI\\Models\\Tarea.cs",
+              "RelativeDocumentMoniker": "Models\\Tarea.cs",
+              "ToolTip": "C:\\Users\\Daigual200\\TareasAPI\\Models\\Tarea.cs",
+              "RelativeToolTip": "Models\\Tarea.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T22:32:46.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TareasContext.cs",
+              "DocumentMoniker": "C:\\Users\\Daigual200\\TareasAPI\\Data\\TareasContext.cs",
+              "RelativeDocumentMoniker": "Data\\TareasContext.cs",
+              "ToolTip": "C:\\Users\\Daigual200\\TareasAPI\\Data\\TareasContext.cs",
+              "RelativeToolTip": "Data\\TareasContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T22:32:22.024Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

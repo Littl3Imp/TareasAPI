@@ -1,0 +1,20 @@
+<h2>Crear Nueva Tarea</h2>
+<form (ngSubmit)="crearTarea()">
+  <div>
+    <label for="titulo">Título:</label>
+    <input id="titulo" [(ngModel)]="tarea.titulo" name="titulo" required>
+  </div>
+  <div>
+    <label for="descripcion">Descripción:</label>
+    <textarea id="descripcion" [(ngModel)]="tarea.descripcion" name="descripcion"></textarea>
+  </div>
+  <div>
+    <label for="estado">Estado:</label>
+    <select id="estado" [(ngModel)]="tarea.estado" name="estado">
+      <option value="Pendiente">Pendiente</option>
+      <option value="En Progreso">En Progreso</option>
+      <option value="Completada">Completada</option>
+    </select>
+  </div>
+  <button type="submit">Crear Tarea</button>
+</form>
