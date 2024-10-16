@@ -1,5 +1,14 @@
-<nav>
-  <a routerLink="/tareas">Lista de Tareas</a>
-  <a routerLink="/crear">Crear Tarea</a>
-</nav>
-<router-outlet></router-outlet>
+<div class="app-container">
+  <header class="app-header">
+    <h1>Gestor de Tareas</h1>
+    <nav>
+      <ul>
+        <li><a routerLink="/tareas" routerLinkActive="active">Lista de Tareas</a></li>
+        <li><a routerLink="/crear" routerLinkActive="active">Crear Tarea</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="app-content">
+    <router-outlet></router-outlet>
+  </main>
+</div>

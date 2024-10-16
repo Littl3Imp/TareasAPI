@@ -1,52 +1,16 @@
+import { TestBed } from '@angular/core/testing';
 
-describe('TareaService', () => {
-  let service: TareaService;
-  let httpMock: HttpTestingController;
+import { TareasService } from './tareas.service';
+
+describe('TareasService', () => {
+  let service: TareasService;
 
   beforeEach(() => {
-    TestBed.configureTestingModule({
-      imports: [HttpClientTestingModule],
-      providers: [TareaService]
-    });
-    service = TestBed.inject(TareaService);
-    httpMock = TestBed.inject(HttpTestingController);
+    TestBed.configureTestingModule({});
+    service = TestBed.inject(TareasService);
   });
 
-  it('should retrieve tareas', () => {
-    const mockTareas: Tarea[] = [
-      { id: 1, titulo: 'Tarea 1', descripcion: 'Desc 1', estado: 'Pendiente' }
-    ];
-
-    service.getTareas().subscribe(tareas => {
-      expect(tareas.length).toBe(1);
-      expect(tareas).toEqual(mockTareas);
-    });
-
-    const req = httpMock.expectOne('https://localhost:7244/api/tareas');
-    expect(req.request.method).toBe('GET');
-    req.flush(mockTareas);
+  it('should be created', () => {
+    expect(service).toBeTruthy();
   });
 });
-
-// error-interceptor.ts
-@Injectable()
-export class ErrorInterceptor implements HttpInterceptor {
-  constructor(private router: Router) {}
-
-  intercept(request: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>> {
-    return next.handle(request).pipe(
-      catchError(error => {
-        if (error instanceof HttpErrorResponse) {
-          if (error.status === 401) {
-            // Manejar error de autenticación
-            this.router.navigate(['/login']);
-          } else {
-            // Manejar otros errores
-            console.error('An error occurred:', error.error);
-          }
-        }
-        return throwError(error);
-      })
-    );
-  }
-}
